@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b47df887-38f1-4800-8463-aeca1574d062" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/BasePageObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/TextField.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,18 +41,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/daces/IdeaProjects/EDVARDS_KALVE_TDL_SS_Final_Task/src/main/resources/drivers"
+    "last_opened_file_path": "C:/Users/daces/IdeaProjects/EDVARDS_KALVE_TDL_SS_Final_Task/src/main/java"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\java" />
       <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\resources\drivers" />
       <recent name="$PROJECT_DIR$/src/main/resources/drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/configs/extentreports" />
       <recent name="$PROJECT_DIR$/src/main/resources/configs" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pages" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
