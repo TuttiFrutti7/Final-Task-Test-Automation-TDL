@@ -1,6 +1,7 @@
 package pages.objects;
 
 import common.*;
+import org.openqa.selenium.*;
 
 public class BasePageObject extends TestBase {
     private String name;
@@ -31,5 +32,17 @@ public class BasePageObject extends TestBase {
 
     public void clearField() {
         getWebElement(getLocator()).clear();
+    }
+
+
+    JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
+    public JavascriptExecutor getJavascriptExecutor() {
+        return this.javascriptExecutor;
+    }
+    public void scrollElementIntoView() {
+        WebElement button = getWebElement(getLocator());
+        if (!button.isDisplayed()) {
+            getJavascriptExecutor().executeScript("arguments[0].scrollIntoView(true);", button);
+        }
     }
 }

@@ -9,7 +9,7 @@ import java.util.concurrent.*;
 public class TestBase {
     private ConfigFileReader configFileReader = new ConfigFileReader();
     private final String url = configFileReader.getUrl();
-    private static WebDriver driver;
+    public static WebDriver driver;
 
     public ConfigFileReader getConfig() {
         return this.configFileReader;
@@ -27,6 +27,17 @@ public class TestBase {
         }
         return this.driver;
     }
+
+    /*public WebDriver getDriver() {
+        if (this.driver == null) {
+            System.setProperty("webdriver.chrome.driver", "src" + File.separator + "main" + File.separator + "resources" + File.separator + "drivers" + File.separator + "chromedriver.exe");
+            ChromeOptions options = new ChromeOptions();
+            options.addArguments("--load-extension=C:/resources/extensions/uBlock-Origin");
+            driver = new ChromeDriver(options);
+            driver.manage().window().maximize();
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);        }
+        return this.driver;
+    }*/
 
     public void closeDriver() {
         getDriver().close();

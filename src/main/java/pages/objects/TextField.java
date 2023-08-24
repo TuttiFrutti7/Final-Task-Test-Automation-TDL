@@ -10,6 +10,8 @@ public class TextField extends BasePageObject
 
     public void setValue() {
         WebElement textField = getWebElement(getLocator());
+        textField.sendKeys(Keys.DOWN);
         textField.sendKeys(getValue());
+        System.out.println("In field " + getName() + " the following value was entered: '" + getValue() + "'");
     }
 }

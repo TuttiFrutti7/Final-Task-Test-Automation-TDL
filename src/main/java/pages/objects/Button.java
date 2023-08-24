@@ -11,6 +11,8 @@ public class Button extends BasePageObject
 
     public void click() {
         WebElement button = getWebElement(getLocator());
+        button.sendKeys(Keys.DOWN);
         button.click();
+        System.out.println("Button " + getName() + " was clicked");
     }
 }

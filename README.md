@@ -1,6 +1,6 @@
 # EDVARDS_KALVE_TDL_SS_Final_Task
 Final task for TDL School Test Automation
-## Maven commands
+# Maven commands
 ### **How can you run one specific test class**
     mvn test -Dtest="NameOfTheTestClass"
 ###### mvn - runs maven command
@@ -35,3 +35,11 @@ Final task for TDL School Test Automation
     <methods>
         <exclude name="testMethod1" />
     </methods>
+#
+# About project
+##
+### For running project:
+###### ChromeDriver is set to windows, you may have to change it according to your OS
+###### Tests have not been finished and don't work properly
+###### All test cases have been enabled
+#

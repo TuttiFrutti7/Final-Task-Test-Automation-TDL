@@ -5,13 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b47df887-38f1-4800-8463-aeca1574d062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/BasePageObject.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Button.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Link.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/objects/TextField.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutoComplete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DialogBoxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProgressBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/common/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/BasePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/BasePageObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Button.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Link.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/TextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/config.proporties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MyFirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyFirstTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +39,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="usePluginRegistry" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="2UNmhv7XKXDJeIYiS0qvIzFogpf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -43,21 +58,28 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/daces/IdeaProjects/EDVARDS_KALVE_TDL_SS_Final_Task/src/main/java"
+    "last_opened_file_path": "C:/Users/daces/IdeaProjects/EDVARDS_KALVE_TDL_SS_Final_Task/src/main/resources/extensions/Ublock-Origin",
+    "settings.editor.selected.configurable": "com.maddyhome.idea.vim.ui.VimEmulationConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\java" />
-      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\resources\drivers" />
-      <recent name="$PROJECT_DIR$/src/main/resources/drivers" />
+      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\resources\extensions\Ublock-Origin" />
+      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\resources\extensions" />
+      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\resources" />
+      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\resources\configs" />
+      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\src\main\resources\configs\extentreports" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daces\IdeaProjects\EDVARDS_KALVE_TDL_SS_Final_Task\" />
       <recent name="$PROJECT_DIR$/src/main/resources/configs/extentreports" />
       <recent name="$PROJECT_DIR$/src/main/resources/configs" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="pages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -70,5 +92,15 @@
       <updated>1692788542099</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

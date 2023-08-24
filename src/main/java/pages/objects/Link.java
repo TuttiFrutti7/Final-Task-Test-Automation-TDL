@@ -11,6 +11,7 @@ public class Link extends BasePageObject
     public void click() {
         WebElement link = getWebElement(getLocator());
         link.click();
+        System.out.println("Link " + getName() + " was clicked");
     }
     public boolean isLinkPresent() {
         WebElement link = getWebElement(getLocator());
