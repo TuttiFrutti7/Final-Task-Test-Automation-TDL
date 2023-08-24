@@ -42,4 +42,8 @@ Final task for TDL School Test Automation
 ###### ChromeDriver is set to windows, you may have to change it according to your OS
 ###### Tests have not been finished and don't work properly
 ###### All test cases have been enabled
+###### I tried to implement the POM model by seperating everything into unique packages and classes (for example seperate page classes and a seperate package for reading the config and initializing the chrome-driver)
+###### for html report I used extent reports by implementing dependency in pom.xml, creating necessery config files and reports package.
+###### Configuration file contains my name, name of the project and main link to the website tested
+###### extent report is opened before the tests run and closed after they have finished running
 #

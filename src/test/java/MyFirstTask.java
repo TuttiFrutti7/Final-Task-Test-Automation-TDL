@@ -37,7 +37,7 @@ public class MyFirstTask extends TestBase {
         report.attachReporter(sparkReporter);
     }
 
-    @Test(description = "First task", enabled = false)
+    @Test(description = "First task", enabled = true)
     public void firstTest() {
         ExtentTest test = report.createTest("First test");
         test.log(Status.INFO, "The test has started");
@@ -62,7 +62,7 @@ public class MyFirstTask extends TestBase {
         closeDriver();
     }
 
-    @Test(description = "Second task", enabled = false)
+    @Test(description = "Second task", enabled = true, groups = "Smoke Suite")
     public void secondTest() throws InterruptedException {
         ExtentTest test = report.createTest("Second test");
         test.log(Status.INFO, "The test has started");
@@ -70,8 +70,7 @@ public class MyFirstTask extends TestBase {
         HomePage homePage = new HomePage();
         if(homePage.isInitialized()) {
             test.log(Status.INFO, "Home page is visible");
-        }
-        else {
+        } else {
             test.log(Status.INFO, "Home page is NOT visible");
         }
         homePage.clickOnTabs();
@@ -80,7 +79,7 @@ public class MyFirstTask extends TestBase {
         closeDriver();
     }
 
-    @Test(description = "Third task", enabled = false)
+    @Test(description = "Third task", enabled = true, groups = "Regression Suite")
     public void thirdTest() {
         ExtentTest test = report.createTest("Third test");
         test.log(Status.INFO, "The test has started");
@@ -88,8 +87,7 @@ public class MyFirstTask extends TestBase {
         HomePage homePage = new HomePage();
         if(homePage.isInitialized()) {
             test.log(Status.INFO, "Home page is visible");
-        }
-        else {
+        } else {
             test.log(Status.INFO, "Home page is NOT visible");
         }
         homePage.clickOnPorgressBar();
@@ -101,7 +99,7 @@ public class MyFirstTask extends TestBase {
         closeDriver();
     }
 
-    @Test(description = "Forth task", enabled = false)
+    @Test(description = "Forth task", enabled = true, groups = "Regression Suite")
     public void forthTest() {
         ExtentTest test = report.createTest("Forth test");
         test.log(Status.INFO, "The test has started");
@@ -109,12 +107,19 @@ public class MyFirstTask extends TestBase {
         HomePage homePage = new HomePage();
         if(homePage.isInitialized()) {
             test.log(Status.INFO, "Home page is visible");
-        }
-        else {
+        } else {
             test.log(Status.INFO, "Home page is NOT visible");
         }
         homePage.clickOnDialogBox();
 
+        DialogBoxes dialogBoxes = new DialogBoxes();
+        if(dialogBoxes.isInitialized()) {
+            test.log(Status.INFO, "Dialog Boxes page is visible");
+        } else {
+            test.log(Status.INFO, "Dialog Boxes page is NOT visible");
+        }
+        dialogBoxes.clickOnMessageBox();
+        dialogBoxes.clickOnOk();
 
         test.log(Status.INFO, "The test has finished");
         closeDriver();

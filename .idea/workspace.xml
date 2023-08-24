@@ -5,20 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b47df887-38f1-4800-8463-aeca1574d062" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AutoComplete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DialogBoxes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ProgressBar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TestNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestNG.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/common/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/common/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AutoComplete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AutoComplete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DialogBoxes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DialogBoxes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/BasePageObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/BasePageObject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/Button.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Button.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/Link.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/Link.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/objects/TextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/objects/TextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/configs/config.proporties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/configs/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/reports/TestReport.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/reports/TestReport.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/MyFirstTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MyFirstTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
