@@ -1,4 +1,4 @@
-# EDVARDS_KALVE_TDL_SS_Final_Task
+# TDL_SS_Final_Task
 Final task for TDL School Test Automation
 # Maven commands
 ### **How can you run one specific test class**
